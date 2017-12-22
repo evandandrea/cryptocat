@@ -49,8 +49,11 @@
 	},
 	"linux": {
 		"category": "Network",
-		"target": ["AppImage"],
+		"target": ["AppImage", "snap"],
 		"icon": "src/img/logo/"
-	}
+	},
+    "snap": {
+        "plugs": ["default", "snap"]
+    }
   }
 }
